@@ -1,0 +1,66 @@
+/* <--section-story--> */
+
+.section-story .grid {
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+/* <--section-experise--> */
+
+.section-expertise .grid {
+  display:flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+/* <--section-team--> */
+
+.section-team .grid {
+  display: flex;
+  margin: 0 -10px;
+}
+
+/* <--section-works--> */
+
+.section-works .grid {
+  display: flex;
+  flex-basis: 100%;
+}
+.section-works .grid-item {
+  display: flex;
+  flex-basis: 100%;
+ flex-wrap: wrap;
+}
+
+/* <--section-feedback--> */
+
+.section-feedback .grid{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* <--section-footer--> */
+
+.section-footer .grid {
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+
+.section-footer .grid-item {
+  padding: 0  20px; 
+}
+
+.grid > * {
+  padding: 10px;
+}
+
+.grid-gap {
+  margin: 0 -30px;
+}
+
+.grid-gap > * {
+  padding: 0 30px;
+}
