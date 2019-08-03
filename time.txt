@@ -1,0 +1,8 @@
+структура и первоначальные настройки стиля - 3 часа
+section-footer - 3 часа
+section - hero, section-story, section - video, section-expertise  - 6 часов
+section-team и section-quote - 2,5 часа
+section-works, section-feedbak - 2,5 часа
+
+
+Итого, 17 часов 
