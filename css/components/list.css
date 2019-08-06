@@ -6,6 +6,8 @@
 
 .section-list li {
   margin-bottom: 10px;
+  position: relative;
+  padding: 0 30px;
 }
 
 .list-social {

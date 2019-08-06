@@ -5,14 +5,7 @@
 
 /* <--section-expertise--> */
 
-
-.section-expertise .card {
-  border: 1px solid rgba(0, 0, 0, 0.42);
-  border-collapse: collapse;
-  background-clip: content-box;
-}
-
-.section-expertise .card-title {
+.card-expertise .card-title {
   color: #413d4b;
   font-weight: 400;
   letter-spacing: 0.7px;
@@ -21,7 +14,7 @@
   text-align: center;
 }
 
-.section-expertise .card-description {
+.card-expertise .card-description {
   color: #333333;
   opacity: 0.75;
   font-weight: 300;
@@ -34,47 +27,41 @@
 /* <--section-team--> */
 
 
-.section-team .card {
-  position: relative;
+.card-team {
   margin-bottom: 70px;
 }
 
-.section-team .card-header {
-  position: relative;
-}
-
-.section-team .card-image {
+.card-team .card-image {
   height: 220px;
   display: block;
   margin-bottom: 27px;
 }
 
-.section-team .card-body {
+.card-team .card-body {
   text-align: center;
   background-color: transparent;
   border: 1px solid rgba(225, 225,225,0.5);
 }
 
-.section-team .card-title {
+.card-team .card-title {
   text-transform: uppercase;
   letter-spacing: 0.7px;
   margin: 8px 0;
 }
 
-.section-team .card-description {
+.card-team .card-description {
   opacity: 0.7;
   color: #fafafa;
   text-transform: uppercase;
 }
 
-.section-team .card-cover {
+.card-team .card-cover {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: #292f36;
-  opacity: 0.7;
+  background-color:rgba(41, 47, 54, 0.7);
   display: none;
   justify-content: center;
   align-items: center; 
@@ -82,38 +69,21 @@
 
 .section-team .card:hover .card-cover {
   display: flex;
-  margin: 10px;
+  margin-bottom: 70px;
 }
 
 .section-team .card:hover .card-body {
-  background-color: #00e0d0;
-  opacity: 0.5;
+  background-color: rgba(0, 224,208);
 }
 
 
 /* <--section-works--> */
 
-.section-works .card-image {
-  height: 148px;
+.card-works img {
+  vertical-align: middle;
 }
 
-
-/* <--section-feedback--> */
-
-.section-feedback .card-image {
-  height: 100px;
-  width: 150px;
-}
-
-.section-feedback .card-title {
-  height: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1.1px;
-  margin-bottom: 40px;
-}
-
-.section-works .card-cover {
+.card-works .card-cover {
   position: absolute;
   top: 0;
   right: 0;
@@ -131,7 +101,7 @@
   display: flex;
 }
 
-.section-works .card-description {
+.card-works .card-description {
   position: absolute;
   bottom: 0;
   color: white;
@@ -141,3 +111,19 @@
   padding: 5px 0;
   margin: 0;
 }
+
+/* <--section-feedback--> */
+
+.card-feedback .card-image {
+  width: 150px;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-feedback {
+  margin: -10px -10px;
+}
+
+

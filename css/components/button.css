@@ -31,7 +31,6 @@
 }
 
 .button-secondary {
-  position: absolute;
   font-size: 25px;
   color: black;
   border-radius: 0;
@@ -40,6 +39,8 @@
   opacity: 0.5;
   width: 70px;
   height: 51px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .button-secondary:hover {
